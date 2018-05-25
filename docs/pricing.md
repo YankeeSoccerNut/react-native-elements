@@ -44,43 +44,35 @@ outer component styling (optional)
 | :------------: | :---------------: |
 | object (style) | inherited styling |
 
-### `buttonFont`
-
-specify button font family
-
-|  Type  |                 Default                 |
-| :----: | :-------------------------------------: |
-| string | System font (iOS), Sans Serif (android) |
-
 ---
 
-### `infoFont`
+### `infoStyle`
 
-specify pricing information font family
+specify pricing information style
 
 |  Type  |                      Default                      |
 | :----: | :-----------------------------------------------: |
-| string | System font bold (iOS), Sans Serif Bold (android) |
+| object |                       none                        |
 
 ---
 
-### `pricingFont`
+### `pricingStyle`
 
-specify pricing font family
+specify pricing text style
 
 |  Type  |                            Default                             |
 | :----: | :------------------------------------------------------------: |
-| string | System font (font weight 700) (iOS), Sans Serif Bold (android) |
+| object |                                none                            |
 
 ---
 
-### `titleFont`
+### `titleStyle`
 
-specify title font family
+specify title text style
 
 |  Type  |                             Default                             |
 | :----: | :-------------------------------------------------------------: |
-| string | System font (font weight 800) (iOS), Sans Serif Black (android) |
+| object |                               none                              |
 
 ---
 
